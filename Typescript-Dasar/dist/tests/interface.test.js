@@ -58,5 +58,14 @@ describe('Interface', function () {
         };
         console.info(domain);
     });
+    it('should support type assertions', function () {
+        const person = {
+            name: "Sahrul",
+            age: 23
+        };
+        const person2 = person;
+        // person2.sayHello("Rafi");
+        console.info(person2);
+    });
 });
 export {};
