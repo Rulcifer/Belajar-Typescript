@@ -19,4 +19,11 @@ describe('Loop', function () {
             counter++;
         }
     });
+    it('should support do while loop', function () {
+        let counter = 0;
+        do {
+            console.info(counter);
+            counter++;
+        } while (counter < 10);
+    });
 });
