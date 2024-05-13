@@ -19,4 +19,22 @@ describe('If Statement', function() {
         console.info(say);
 
     });
+
+    it('should support switch statement', function () {
+        
+        function sayHello(name: string): string {
+            switch (name){
+                case "Sahrul" :
+                    return "Hi Sahrul";
+                case "Rafi":
+                    return "Hi Rafi";
+                default :
+                    return "Hello";
+            }
+        }
+
+        console.info(sayHello("Sahrul"));
+        console.info(sayHello("Rafi"));
+        console.info(sayHello("Apel"));
+    });
 });
