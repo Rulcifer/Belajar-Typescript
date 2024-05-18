@@ -21,7 +21,7 @@ describe('Inheritance', () => {
     }
 
     it('should support inheritance', () => {
-        const person = new Person("Eko");
-        person.sayHello("Budi");
+        const person = new Person("Sahrul");
+        person.sayHello("Rafi");
     });
 });
